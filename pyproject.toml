@@ -4,4 +4,20 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "feedparser>=6.0.12",
+    "html-to-markdown>=2.19.7",
+    "markdown>=3.10",
+    "openai>=2.14.0",
+    "psycopg2-binary>=2.9.11",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "sqlalchemy>=2.0.45",
+    "youtube-transcript-api>=1.2.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
